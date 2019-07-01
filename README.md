@@ -1,5 +1,11 @@
 # install-docker
 
-sudo add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian stretch stable"
-apt-get update
-apt-get install docker-ce
+sudo apt update
+sudo apt install snapd
+
+sudo snap install docker
+
+
+# descobrir versão do sistema operacional(Linux)
+
+cat /etc/*release
